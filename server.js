@@ -1,7 +1,7 @@
-const express = require('express');
+const express = require("express");
 const app = express();
-const path = require('path');
-const port = 3000;
+const path = require("path");
+const port = 10000;
 
 // Serve files from the current directory
 app.use(express.static(__dirname));
