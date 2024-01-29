@@ -7,7 +7,7 @@ This repository features a Price Predictor that leverages an ARIMA (AutoRegressi
 The model uses a standard ARIMA approach to capture short-term trends in product pricing. ARIMA combines autoregression (AR), differencing (I), and moving averages (MA) to create a robust forecasting tool. The result is a predictive model that can anticipate product prices for the next 7 days.
 
 ## Repository Structure
-The repository is organized with two main components:
+The repository is organized with three main components:
 
 ### server.js
 This file is responsible for executing both script.py and script.js. Upon successful execution of script.py, a JSON file (arima_results.json) is generated. This file is then utilized by script.js to plot the price chart on the webpage using Charts.js.
