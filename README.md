@@ -3,6 +3,8 @@
 ## Purpose
 This repository features a Price Predictor that leverages an ARIMA (AutoRegressive Integrated Moving Average) model to forecast product prices based on their price history over the past month. The primary goal is to provide users with insights into short-term fluctuations in product prices, aiding them in making informed decisions about the best time to make a purchase.
 
+The product for the current forecast can be found [here](https://www.flipkart.com/lg-ur7500-108-cm-43-inch-ultra-hd-4k-led-smart-webos-tv-2023-a5-ai-processor-4k-gen6-60hz-refresh-rate-magic-remote-capability/p/itm926f6b65c136b?pid=TVSGQQDYSCFGRX2F&lid=LSTTVSGQQDYSCFGRX2FVATNAW&fm=neo%2Fmerchandising&iid=M_f14f9138-3f49-4442-9825-2e80b67ca013_27.GO45SKVBQD2H&ppt=hp&ppn=homepage&ssid=ucylcxqj1c0000001706348119148&otracker=clp_omu_Televisions_3_27.dealCard.OMU_tvs-and-appliances-new-clp-store_tvs-and-appliances-new-clp-store_GO45SKVBQD2H_25&otracker1=clp_omu_PINNED_neo%2Fmerchandising_Televisions_NA_dealCard_cc_3_NA_view-all_25&cid=GO45SKVBQD2H)
+
 ## Explanation of ARIMA
 The model uses a standard ARIMA approach to capture short-term trends in product pricing. ARIMA combines autoregression (AR), differencing (I), and moving averages (MA) to create a robust forecasting tool. The result is a predictive model that can anticipate product prices for the next 7 days.
 
@@ -16,10 +18,10 @@ This file is responsible for executing both script.py and script.js. Upon succes
 This Python script, upon successful build, creates the arima_results.json file, containing the predicted prices for the upcoming week.
 
 ### script.js
-This JavaScript file is responsible for rendering the price chart on the webpage. Users can customize the chart's appearance and behavior by modifying this file. Note that to use this forecaster with a different CSV file, users need to update the data source in this script at line 10 to match the new dataset.
+This JavaScript file is responsible for rendering the price chart on the webpage. Users can customize the chart's appearance and behavior by modifying this file. 
 
 ## Deployment
-The deployed code can be accessed at: [here](https://price-predictor-k0u3.onrender.com/)
+The deployed code can be found [here](https://price-predictor-k0u3.onrender.com/)
 
 Feel free to explore the provided deployment link to see the Price Predictor in action and visualize the predicted product prices.
 
