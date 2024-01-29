@@ -28,9 +28,9 @@ Feel free to explore the provided deployment link to see the Price Predictor in 
 ## Getting Started
 To run the Price Predictor locally, follow these steps:
 
-1.Clone the repository to your local machine.
-2.Install any necessary dependencies.
-3.Execute server.js to initiate the prediction process.
+1. Clone the repository to your local machine.
+2. Install any necessary dependencies.
+3. Execute server.js to initiate the prediction process.
 4. Make sure to refer to the documentation for further details on how to set up and customize the Price Predictor according to your requirements.
 
 **Note**: To use this forecaster with any other CSV file, update the data source in script.js (line 10) and script.py (line 7) to match the new dataset.
